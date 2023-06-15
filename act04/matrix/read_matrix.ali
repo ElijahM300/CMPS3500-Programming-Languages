@@ -1,0 +1,74 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U read_matrix%b		read_matrix.adb		b43282db NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-inteio.ads		20170908151217 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D read_matrix.adb	20220312074700 ca64b825 read_matrix%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|11r6 12r5 13r6 30r12 40r9
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|13w10 30r16 40r13
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|11w10 12r9
+52P9*File_Type 12|21r10 26r38
+53n23*In_File{53E9} 12|48r14 52r14 56r14
+92U14*Open 12|48s4 52s4 56s4
+98U14*Close 12|50s4 54s4 58s4
+263U14*Put_Line 12|42s8 61s4 63s4
+X 8 a-tiinio.ads
+51U14*Get 12|30s32[3|18]
+66U14*Put 12|40s29[3|18]
+X 12 read_matrix.adb
+15U11*read_matrix 15b11 66l5 66t16
+16N4 MAX_ROW 20r42 28r35
+17N4 MAX_COL 20r68 29r40
+18i4 N{integer} 30m40 31r35
+20A9 MATRIX(integer)<integer><integer> 22r9 23r9 24r9 26r62 36r37 38r18 39r22
+21p4 Inf{7|52P9} 48m9 48r9 49r19 50m10 50r10 52m9 52r9 53r19 54m10 54r10
+. 56m9 56r9 57r19 58m10 58r10
+22a4 m1{20A9} 49m24 60r16
+23a4 m2{20A9} 53m24 62r16
+24a4 m3{20A9} 57m24 64r16
+26U14 PopulateMatrix 26b14 26>29 26<49 34l8 34t22 49s4 53s4 57s4
+26p29 Inf{7|52P9} 30r36
+26a49 Result{20A9} 31m12
+28i11 Row{integer} 31r19
+29i13 Column{integer} 31r24
+36U14 PrintMatrix 36b14 36>26 44l8 44t19 60s4 62s4 64s4
+36a26 Input{20A9} 40r33
+38i11 Row{integer} 40r39
+39i12 Column{integer} 40r44
+
